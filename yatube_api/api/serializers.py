@@ -51,6 +51,7 @@ class FollowSeriaizer(serializers.ModelSerializer):
                 'Подписка на самого себя невозможна!')
         return data
 
+
 class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
